@@ -8,7 +8,7 @@ $(function(){
         $('.login-box').show();
     })
     var form = layui.form;
-    var layer = layui.layer;
+    // var layer = layui.layer;
     form.verify({
         pwd:[/^[\S]{6,12}$/,'密码必须6到12位不能出现空格'],
         repwd:function(value){
